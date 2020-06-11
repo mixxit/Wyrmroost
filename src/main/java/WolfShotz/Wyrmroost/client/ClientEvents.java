@@ -8,7 +8,15 @@ import WolfShotz.Wyrmroost.client.render.entity.dragon_fruit.DragonFruitDrakeRen
 import WolfShotz.Wyrmroost.client.render.entity.ldwyrm.LDWyrmRenderer;
 import WolfShotz.Wyrmroost.client.render.entity.owdrake.OWDrakeRenderer;
 import WolfShotz.Wyrmroost.client.render.entity.rooststalker.RoostStalkerRenderer;
+import WolfShotz.Wyrmroost.client.render.entity.royal_red.BlackDragonRenderer;
+import WolfShotz.Wyrmroost.client.render.entity.royal_red.BlueDragonRenderer;
+import WolfShotz.Wyrmroost.client.render.entity.royal_red.GreenDragonRenderer;
+import WolfShotz.Wyrmroost.client.render.entity.royal_red.OrangeDragonRenderer;
+import WolfShotz.Wyrmroost.client.render.entity.royal_red.RedDragonRenderer;
 import WolfShotz.Wyrmroost.client.render.entity.royal_red.RoyalRedRenderer;
+import WolfShotz.Wyrmroost.client.render.entity.royal_red.SilverDragonRenderer;
+import WolfShotz.Wyrmroost.client.render.entity.royal_red.WhiteDragonRenderer;
+import WolfShotz.Wyrmroost.client.render.entity.royal_red.YellowDragonRenderer;
 import WolfShotz.Wyrmroost.client.render.entity.silverglider.SilverGliderRenderer;
 import WolfShotz.Wyrmroost.entities.dragon.AbstractDragonEntity;
 import WolfShotz.Wyrmroost.entities.multipart.MultiPartEntity;
@@ -88,6 +96,14 @@ public class ClientEvents
         registerEntityRenderingHandler(WREntities.DRAGON_FRUIT_DRAKE.get(), DragonFruitDrakeRenderer::new);
         registerEntityRenderingHandler(WREntities.CANARI_WYVERN.get(), CanariWyvernRenderer::new);
         registerEntityRenderingHandler(WREntities.ROYAL_RED.get(), RoyalRedRenderer::new);
+        registerEntityRenderingHandler(WREntities.SILVERDRAGON.get(), SilverDragonRenderer::new);
+        registerEntityRenderingHandler(WREntities.BLACKDRAGON.get(), BlackDragonRenderer::new);
+        registerEntityRenderingHandler(WREntities.BLUEDRAGON.get(), BlueDragonRenderer::new);
+        registerEntityRenderingHandler(WREntities.GREENDRAGON.get(), GreenDragonRenderer::new);
+        registerEntityRenderingHandler(WREntities.ORANGEDRAGON.get(), OrangeDragonRenderer::new);
+        registerEntityRenderingHandler(WREntities.REDDRAGON.get(), RedDragonRenderer::new);
+        registerEntityRenderingHandler(WREntities.WHITEDRAGON.get(), WhiteDragonRenderer::new);
+        registerEntityRenderingHandler(WREntities.YELLOWDRAGON.get(), YellowDragonRenderer::new);
 
         registerEntityRenderingHandler(WREntities.DRAGON_EGG.get(), DragonEggRenderer::new);
 

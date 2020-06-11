@@ -36,6 +36,14 @@ public class WREntities
     public static final RegistryObject<EntityType<DragonFruitDrakeEntity>> DRAGON_FRUIT_DRAKE = register("dragon_fruit_drake", 0xe05c9a, 0x788716, creature(DragonFruitDrakeEntity::new).size(1.5f, 1.9f));
     public static final RegistryObject<EntityType<CanariWyvernEntity>> CANARI_WYVERN = register("canari_wyvern", 0x1D1F28, 0x492E0E, creature(CanariWyvernEntity::new).size(0.7f, 0.85f));
     public static final RegistryObject<EntityType<RoyalRedEntity>> ROYAL_RED = register("royal_red", 0xff0000, 0x0, creature(RoyalRedEntity::new).size(4f, 5f));
+    public static final RegistryObject<EntityType<SilverDragonEntity>> SILVERDRAGON = register("silver_dragon", 0xff0000, 0x0, creature(SilverDragonEntity::new).size(4f, 5f));
+    public static final RegistryObject<EntityType<BlackDragonEntity>> BLACKDRAGON = register("black_dragon", 0xff0000, 0x0, creature(BlackDragonEntity::new).size(4f, 5f));
+    public static final RegistryObject<EntityType<BlueDragonEntity>> BLUEDRAGON = register("blue_dragon", 0xff0000, 0x0, creature(BlueDragonEntity::new).size(4f, 5f));
+    public static final RegistryObject<EntityType<GreenDragonEntity>> GREENDRAGON = register("green_dragon", 0xff0000, 0x0, creature(GreenDragonEntity::new).size(4f, 5f));
+    public static final RegistryObject<EntityType<OrangeDragonEntity>> ORANGEDRAGON = register("orange_dragon", 0xff0000, 0x0, creature(OrangeDragonEntity::new).size(4f, 5f));
+    public static final RegistryObject<EntityType<RedDragonEntity>> REDDRAGON = register("red_dragon", 0xff0000, 0x0, creature(RedDragonEntity::new).size(4f, 5f));
+    public static final RegistryObject<EntityType<WhiteDragonEntity>> WHITEDRAGON = register("white_dragon", 0xff0000, 0x0, creature(WhiteDragonEntity::new).size(4f, 5f));
+    public static final RegistryObject<EntityType<YellowDragonEntity>> YELLOWDRAGON = register("yellow_dragon", 0xff0000, 0x0, creature(YellowDragonEntity::new).size(4f, 5f));
 
     public static final RegistryObject<EntityType<DragonEggEntity>> DRAGON_EGG = register("dragon_egg", EntityType.Builder.<DragonEggEntity>create(DragonEggEntity::new, EntityClassification.MISC).disableSummoning());
 

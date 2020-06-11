@@ -25,6 +25,7 @@ repositories {
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'eclipse'
 
 version = "${project.mod_version}"
 group = 'WolfShotz.Wyrmroost' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
